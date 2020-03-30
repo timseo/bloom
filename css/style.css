@@ -1241,7 +1241,7 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .grid figure { -webkit-transition: opacity 0.2s; transition: opacity 0.2s; }
 .grid figcaption {  bottom: 70px; opacity: 0; position: absolute; text-align: center; width: 100%; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; }
 .gallery-img { opacity: 1; transition: all 0.3s ease 0s; overflow: hidden; }
-.grid figure:hover .gallery-img {background-color:#000; }
+.grid figure:hover .gallery-img {background-color:#fff; }
 .no-hover figure:hover .gallery-img {background-color: transparent !important; }
 .no-hover figure:hover img { opacity: 1 !important; -ms-transform: none; -webkit-transform: none;  transform: none; }
 figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.15;  cursor:url("../images/icon-zoom-white.png"), pointer; }
