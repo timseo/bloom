@@ -48,9 +48,9 @@ Table of contents
 /* ===================================
     Google font
 ====================================== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 
 /* ===================================
     Reset
@@ -151,7 +151,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 
 .dark-gray-text { color:#4C6085 !important}
 .black-text{ color:#1D2D44 !important}
-.sea-green-text { color:#36F1CD !important}
+.sea-green-text { color:#4e6086 !important}
 
 /* letter spacing */
 .no-letter-spacing { letter-spacing: 0px !important}
@@ -2122,7 +2122,7 @@ thead th.first { padding-left: 0 !important; }
 .corporate-standards-title { left: 0; position: absolute; right: 0; text-align: center; top: 68%; z-index:5 }
 .corporate-standards-img i { color:#36F1CD !important}
 .corporate-standards-text .img-border-small-fix {z-index:-1}
-.sub-title {  border-bottom: 1px solid #36F1CD; display: inline-block; font-weight: 500; margin-top: 10px; text-transform: uppercase; }
+.sub-title {  border-bottom: 1px solid #4e6086; display: inline-block; font-weight: 500; margin-top: 10px; text-transform: uppercase; }
 
 /* photography */
 .photography-slider h1 {font-size:90px; letter-spacing:50px; font-weight:700}

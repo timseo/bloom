@@ -1,14 +1,14 @@
 
-<?php 
+<?php
   if(isset($_POST['email'])){
-	  
+
 	$name =$_POST["name"];
 	$from =$_POST["email"];
 	$comment=$_POST["comment"];
-	
+
 	// Email Receiver Address
-	$receiver="info@yourdomain.com";
-	$subject="Contact us form details";
+	$receiver="lindsay@bloominsllc.com";
+	$subject="**FROM WEBSITE CONTACT FORM";
 
 	$message = "
 	<html>
@@ -18,7 +18,7 @@
 	<body>
 	<table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
 	<tr>
-	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='http://www.yourdomain.com/images/logo-email.png' ></td>
+	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='images/logo-light.png' ></td>
 	</tr>
 	<tr>
 	<td width='50%' align='right'>&nbsp;</td>
@@ -45,13 +45,13 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <'.$from.'>' . "\r\n";
-   if(mail($receiver,$subject,$message,$headers))  
+   if(mail($receiver,$subject,$message,$headers))
    {
 	   //Success Message
       echo "The message has been sent!";
    }
    else
-   {	
+   {
    	 //Fail Message
       echo "The message could not been sent!";
    }
