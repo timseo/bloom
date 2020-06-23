@@ -203,7 +203,7 @@ i { color: #9a9a9a; margin: 0 3px}
 .bg-fast-yellow{ background: #fdd947 !important; }
 .bg-mid-gray{ background: #d4d4d4 !important; }
 .bg-black{ background: #000000 !important; }
-.bg-highlight{ background: #345b8f !important; text-align:center}
+.bg-highlight{ background: #507de7 !important; text-align:center}
 .bg-green{ background: #70bd5b !important; }
 .bg-gray-light { background-color: #fcfcfc !important;}
 .bg-gray {background-color: #f6f6f6 !important;}
@@ -444,7 +444,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 .navbar-nav li a.active { border-bottom:2px solid #000}
 .nav-white-bg { background-color:#fff !important;}
 .black-bg { background: rgba(0,0,0,0.65)}
-.nav-white.sticky-nav .navbar-nav li a { color: #fff}
+.nav-white.sticky-nav .navbar-nav li a { color: #c5c5c5}
 .nav-white.shrink-nav .navbar-nav li a { color: #000}
 .nav-white.sticky-nav .navbar-nav li a:hover, .nav-white.sticky-nav .navbar-nav > .open > a  { border-bottom-color: #fff}
 .nav-white.shrink-nav .navbar-nav li a:hover, .nav-white.shrink-nav .navbar-nav > .open > a { border-bottom-color: #000}

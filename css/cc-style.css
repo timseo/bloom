@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.team-name {
+    font-size: 1.27em;
+    line-height: 1.30em;
+}
+.person-social.margin-five.no-margin-bottom {
+    text-transform: capitalize;
+}
